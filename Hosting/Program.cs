@@ -15,6 +15,8 @@ namespace Hosting
         {
             using (ServiceHost host = new ServiceHost(typeof(CalculatorService)))
             {
+                //host.AddServiceEndpoint("wcfService.Interface.ICalculator", new NetTcpBinding() { PortSharingEnabled = true }, "net.tcp://localhost:9877/calculatorservice");
+
                 //host.AddServiceEndpoint(typeof(ICalculator), new WSHttpBinding(), "http://localhost:9876/calculatorservice");
                 //if(host.Description.Behaviors.Find<ServiceMetadataBehavior>() == null)
                 //{

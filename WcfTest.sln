@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2006
+VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorService.Interface", "CalculatorService.Interface\CalculatorService.Interface.csproj", "{563E7277-B222-4E8D-8A1C-77F772539453}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientChannelConfig", "ClientChannelConfig\ClientChannelConfig.csproj", "{AEE1A914-9D59-4B29-8CD6-D043EFC7ADDD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServices", "WcfServices\WcfServices.csproj", "{3E575777-10C5-4381-A4BF-A3E86EEDD0BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Host2", "Host2\Host2.csproj", "{5BEBFC15-4BE6-4341-BC0B-33C7E602D0FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{3E575777-10C5-4381-A4BF-A3E86EEDD0BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E575777-10C5-4381-A4BF-A3E86EEDD0BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E575777-10C5-4381-A4BF-A3E86EEDD0BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BEBFC15-4BE6-4341-BC0B-33C7E602D0FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BEBFC15-4BE6-4341-BC0B-33C7E602D0FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BEBFC15-4BE6-4341-BC0B-33C7E602D0FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BEBFC15-4BE6-4341-BC0B-33C7E602D0FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
